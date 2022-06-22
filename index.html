@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>PopFilmes</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="https://img.icons8.com/color/32/popcorn.png" type="image/x-icon">
+  <script src="index.js"></script>
+</head>
+
+<body>
+
+  <header class="container-fluid header">
+
+    <div class="row">
+
+      <div class="col-12 header_area">
+
+        <div class="row">
+
+          <div class="col-12 col-sm-12 col-md-2 col-lg-2">
+
+            <img src="imagens/logo.jpg" alt="logo" class="logo">
+
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-8 col-lg-8 menu_area">
+            <nav class="nav nav-pills flex-column flex-sm-row">
+              <a class="flex-sm-fill text-sm-center nav-link active home" href="index.html">Home</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="index.html#div_lancamentos">Lançamentos</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="index.html#div_em_destaque">Em destaque</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="index.html#div_avaliacoes">Avaliações</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="index.html#div_entrevistas">Entrevistas e Making</a>
+              <a class="flex-sm-fill text-sm-center nav-link" href="index.html#div_novidades">Novidades</a>
+
+            </nav>
+
+          </div>
+
+          <form class="col-12 col-md-2 col-lg-2 barra">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar filme" aria-label="Search">
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="container main">
+
+    <div class="row" id="div_lancamentos">
+
+      <div class="col-12">
+
+        <div class="row">
+
+          <div class="col-12">
+
+            <h1 class="titulo">Lançamentos</h1>
+
+          </div>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-12 main_area">
+            <!--Carousel-->
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+
+                  <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                      <iframe src="https://www.youtube.com/embed/5SjYFF2g35c"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="video_destaque"></iframe>
+                    </div>
+                    <div class="col-12- col-sm-12 col-md-12 col-lg-6">
+                      <h2 class="titulo_carousel">Animais fantásticos: os segredos de Dumbledore</h2>
+                      <p class="texto1"><strong>Sinpose:</strong>O professor Alvo Dumbledore sabe que o poderoso mago das trevas Gellert Grindelwald está se movimentando para assumir o controle do mundo mágico. Incapaz de detê-lo sozinho, ele pede ao magizoologista Newt Scamander para liderar uma intrépida equipe de bruxos e um corajoso padeiro em uma missão perigosa, em que eles encontram velhos e novos animais fantásticos e entram em conflito com a crescente legião de seguidores de Grindelwald. Mas com tantas ameaças, quanto tempo poderá Dumbledore permanecer à margem do embate?</p>
+                      <p><strong>Diretor:</strong> David Yates</p>
+                      <p><strong>Elenco:</strong> Jude Law | Eddie Redmayne| Mads Mikkelsen ...</p>
+                      <p><strong>Avaliação:</strong> ★★★★★ </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <div class="row">
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                      <iframe  src="https://www.youtube.com/embed/zfEqXQfl4hc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="video_destaque"></iframe>
+                    </div>
+
+                    <div class="col-12- col-sm-12 col-md-12 col-lg-6">
+                      <h2 class="titulo_carousel">Morbius</h2>
+                      <p class="texto1"><strong>Sinpose:</strong> Gravemente doente com um raro distúrbio sanguíneo e determinado a salvar outros sofrendo o mesmo destino, o Dr. Morbius tenta uma aposta desesperada. O que primeiramente parece ser um sucesso radical, libera uma escuridão dentro dele e transforma esse médico em um caçador</p>
+                      <p><strong>Diretor:</strong> Daniel Espinosa</p>
+                      <p><strong>Elenco:</strong> Jared Letto | Matt Smith | Adria Arjona ...</p>
+                      <p><strong>Avaliação:</strong> ★★★★☆ </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                      <iframe  src="https://www.youtube.com/embed/XZJS5LfLRNg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen class="video_destaque"></iframe>
+                    </div>
+
+                    <div class="col-12- col-sm-12 col-md-12 col-lg-6">
+                      <h2 class="titulo_carousel">Cidade perdida</h2>
+                      <p class="texto1"><strong>Sinpose:</strong> Uma romancista reclusa acredita que nada seria pior que fazer a turnê do seu livro mais recente com o modelo que ilustra a capa. Tudo muda quando a autora e o modelo sofrem uma tentativa de sequestro, e, com isso, são levados para uma surpreendente aventura na selva.</p>
+                      <p><strong>Diretor:</strong> Aaron Nee</p>
+                      <p><strong>Elenco:</strong> Sandra Bullock | Channing Tatum | Daniel Radcliffe ...</p>
+                      <p><strong>Avaliação:</strong> ★★★★★ </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="row main_destaques" id="div_em_destaque">
+          <div class="col-6 em_destaque">
+            <h2>
+              Em Destaque
+            </h2>
+
+          </div>
+          <div class="col-6 d-flex justify-content-end">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle botao" type="button" id="dropdownMenuButton1"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Categoria
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">Comédia</a></li>
+                <li><a class="dropdown-item" href="#">Romance</a></li>
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <!--CARDS-->
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+            <div class="card">
+              <a href="#" class="link_img"></a><img src="https://www.themoviedb.org/t/p/w220_and_h330_face/f4SvCKIUrC2cDR7Xo4k1kaGAqQ2.jpg" alt="Imagem Sonic">
+              <div class="card-body">
+                <p class="card-text">Sonic 2: o filme</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+            <div class="card">
+              <a href="#" class="link_img"></a><img src="https://www.themoviedb.org/t/p/w220_and_h330_face/mqCLGi2YxlqwWeGN7NRILYQOhm.jpg" alt="Imagem O homen do Norte">
+              <div class="card-body">
+                <p class="card-text">O homem do norte</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+            <div class="card">
+              <a href="#" class="link_img"></a><img src="https://www.themoviedb.org/t/p/w220_and_h330_face/uEPJQY1kEEz9XoZZ8rP6p9JUrmv.jpg"
+                alt="Imagem Assasino sem rastro">
+              <div class="card-body">
+                <p class="card-text">Assasino sem rastro</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+
+            <div class="card">
+              <a href="#" class="link_img"></a><img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/fVzXp3NwovUlLe7fvoRynCmBPNc.jpg" alt="Homem aranha">
+              <div class="card-body">
+                <p class="card-text">Homem-aranha: sem volta pra casa</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--</div>
+
+    <div class="div_mais" id="div_mais_filmes">
+        <div class="mais_destaques">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/boIgXXUhw5O3oVkhXsE6SJZkmYo.jpg" width="100%" class="card-img-top"
+                    alt="Doutor estranho">
+                    <div class="card-body">
+                        <p class="card-text">Doutor Estranho no Mutiverso da loucura</p>
+                      </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/cpWUtkcgRKeauhTyVMjYHxAutp4.jpg" width="100%" class="card-img-top"
+                    alt="Interceptor">
+                    <div class="card-body">
+                        <p class="card-text">Interceptor</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wd7b4Nv9QBHDTIjc2m7sr0IUMoh.jpg" width="100%" class="card-img-top"
+                    alt="The Batman">
+                    <div class="card-body">
+                        <p class="card-text">The batman</p>
+                    </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+                <img src="https://www.themoviedb.org/t/p/w220_and_h330_face/wxP2Mzv9CdjOK6t4dNnFGqIQl0V.jpg" width="100%" class="card-img-top"
+                    alt="Top gun">
+                    <div class="card-body">
+                        <p class="card-text">Top gun: maverik
+                        
+                        </p>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="mais_button">
+            <button id="exibir_mais_filmes" type="button" class="btn btn-secondary" name="div_mais_filmes" onClick="mostrar_mais(this.name, this.id, 'exibir_menos_filmes')"><i class="fa fa-plus"></i> Carregar mais filmes</button>
+            <button id="exibir_menos_filmes" type="button" class="btn btn-secondary" name="div_mais_filmes" onClick="mostrar_mais(this.name, 'exibir_mais_filmes', this.id)"><i class="fa fa-minus"></i> Exibir menos filmes</button>
+        </div>
+    </div>
+</div>-->
+<div class="row">
+  <div class="col-12 d-flex justify-content-center botao_mais">
+    <button type="submit" class="btn btn-primary"><a href="pages/destaque.html"><i
+          class="fas fa-plus"></i><b>&nbsp;&nbsp;Carregar mais filmes</b></a></button>
+  </div>
+</div>
+      <section class="container section">
+        <div class="row main_destaques" id="div_avaliacoes">
+
+          <div class="col-12">
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 titulo_avaliacao">
+
+              <h2>Últimas Avaliações</h2>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="entrevistados">Luiza Alves</h3>
+                <p><strong>Os vingadores: Guerra infinita</strong></p>
+                <p><strong>Avaliação:</strong> "Um filme com um cenário espetacular e trilha sonora incrível, o melhor filme da marvel."</p>
+                <p>★★★★☆ - 13/04/2021</p>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="entrevistados">André Victor</h3>
+                <p><strong>Corra</strong></p>
+                <p><strong>Avaliação:</strong> "Achei o filme dfícil de entender, e é muito parado."</p>
+                <p>★★☆☆☆ - 14/04/2020</p>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h3 class="entrevistados">Carol Vaz</h3>
+                <p><strong>Shang shi: a lenda dos 7 anéis</strong></p>
+                <p><strong>Avaliação:</strong> "Representatividade asiática, era isso que estava precisando!Filme incrível."</p>
+                <p>★★★★★ - 24/06/2021</p>
+              </div>
+
+            </div>
+
+
+            <div class="row">
+
+              <div class="col-12 d-flex justify-content-end">
+
+                <button type="button" class="btn btn-secondary btn-sm botao">+ Carregar mais avaliações</button>
+
+              </div>
+
+
+
+            </div>
+
+          </div>
+
+          <div class="row main_entrevistas" id="div_entrevistas">
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+
+              <h2 class="section2">Entrevista e Making Off</h2>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/-MTPJ2ogUsM" 
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <h3 class="titulo_making">Doutor Estranho no multiverso da loucura</h3>
+                <p><strong>Diretor:</strong> Sam Raimi</p>
+                <p><strong>Roteiro:</strong> Michael Waldron</p>
+                <p><strong>Estreia:</strong> 05/05/2022</p>
+
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/j-zQQr1KD98"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <h3 class="titulo_making">Unhcharted:fora do mapa</h3>
+                <p><strong>Diretor:</strong> Ruben Fleischer</p>
+                <p><strong>Roteiro:</strong> Rafe Judkins</p>
+                <p><strong>Estreia:</strong> 17/02/2022</p>
+
+              </div>
+
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/BXTm_arU7Aw"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+
+                <h3 class="titulo_making">Arremessando alto</h3>
+                <p><strong>Diretor:</strong> Vince Gilligan</p>
+                <p><strong>Roteiro:</strong> Vince Gilligan</p>
+                <p><strong>Estreia:</strong> 03/06/2022</p>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-12 d-flex justify-content-end">
+
+                <button type="button" class="btn btn-secondary btn-sm botao">+ Carregar mais filmes</button>
+
+              </div>
+
+          </div>
+
+      </section>
+
+      <aside class="container">
+
+        <div class="row">
+
+
+
+          <div class="col-12">
+
+            <div class="row main_novidades" id="div_novidades">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-8">
+                <h2 class="titulo_novidade">Novidades</h2>
+                <div class="row">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwg0njkjd8Pcpx9JX5Pa53bghAg9yJ3huYnQ&usqp=CAU" alt="imagem jhonny" height="200px"
+                    width="310px" class="col-12 col-sm-12 col-md-6 col-lg-5 imagem_novidades">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                    <h4>Jhonny Deep vence Amber Head, sua ex-esposa!</h4>
+                    <p>As afirmações de Heard são falsas e difamatórias porque tratavam especificamente de seu relacionamento com Depp. O ator será indenizado em US$ 15 milhões (R$ 24 milhões).</p>
+                    <hr>
+                  </div>
+                  <img src="https://pbs.twimg.com/media/FVTf8B-UEAAH3Bt?format=jpg&name=small" alt="imagem Barbie" height="270px"
+                    width="300px" class="col-12 col-sm-12 col-md-6 col-lg-5 imagem_novidades">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                    <h4>Barbie: Ryan Gosling aparece caracterizado como Ken em imagem do filme</h4>
+                    <p>A Warner revelou o visual de Ryan Gosling no papel de Ken em Barbie, filme protagonizado por Margot Robbie.</p>
+                    <hr>
+                  </div>
+                  <img src="data:image/jpeg;base64,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" alt="imagem netflix" height="200px"
+                    width="310px" class="col-12 col-sm-12 col-md-6 col-lg-5 imagem_novidades">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-5">
+                    <h4>Blonde: filme com Ana de Armas como Marilyn Monroe ganha 1º teaser</h4>
+                    <p>O teaser, inteiro em preto e branco, mostra a personagem vivendo os bastidores da fama, que não era dos melhores. </p>
+                    <h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+                <h2 class="titulo_sobre">Sobre</h2>
+                <p>Popfilmes é uma plataforma de filmes mais populares do momento, com o intuito de trazer as últimas notícias do mundo do cinema, entrevistas, making of.</p>
+
+                <h2 class="titulo_editorial"> Editorial</h2>
+                <img src="https://img.icons8.com/material/48/user-male-circle--v1.png" alt="icon profile" class="icon">
+                <p class="profile"><strong>Redação:</strong> Camila Alves da Silva</p>
+
+                <img src="https://img.icons8.com/material/48/user-male-circle--v1.png" alt="icon profile" class="icon">
+                <p class="profile"><strong>Edição:</strong> Camila Alve da Silva</p>
+
+                <img src="https://img.icons8.com/material/48/user-male-circle--v1.png" alt="icon profile" class="icon">
+                <p class="profile"><strong>Criação:</strong> Camila Alves da Silva</p>
+
+                <h2 class="titulo_redes">Redes Sociais</h2>
+                <img src="https://img.icons8.com/material-outlined/40/instagram-new--v1.png" alt="" class="redes">
+                <img src="https://img.icons8.com/ios/40/twitter--v1.png" alt="" class="redes">
+                <img src="https://img.icons8.com/ios/40/facebook--v1.png" alt="" class="redes">
+
+              </div>
+            </div>
+
+
+
+
+          </div>
+
+        </div>
+
+      </aside>
+
+  </main>
+
+  <footer class="container-fluid footer">
+
+    <div class="row">
+
+      <div class="col-12 footer_area">
+
+        <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</p>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
